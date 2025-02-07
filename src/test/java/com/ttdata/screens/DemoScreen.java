@@ -39,12 +39,10 @@ public class DemoScreen extends PageObject{
     }
 
     public void clickImagen(){
-        product1.click();
-    }
-
-    public void clickImagen(){
         agregarItem.click();
     }
+
+
 
 
 

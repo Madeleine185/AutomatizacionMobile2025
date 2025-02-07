@@ -13,6 +13,17 @@ public class DemoSteps {
     }
 
 
+    public void products() {
+
+        Assert.assertTrue(demoScreen.cargaProductos());
+    }
+
+    public void carrito() {
+
+        Assert.assertTrue(demoScreen.clickImagen());
+    }
+
+
 
 
 }

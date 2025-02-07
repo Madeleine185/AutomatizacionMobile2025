@@ -23,12 +23,12 @@ public class DemoStepdefs {
     @And("valido que carguen correctamente los productos en la galeria")
     public void validoQueCarguenCorrectamenteLosProductosEnLaGaleria() {
 
+        demoSteps.products();
     }
 
     @When("agrego <UNIDADES> del siguiente producto {string}")
     public void agregoUNIDADESDelSiguienteProducto(String arg0) {
-
-
+        demoSteps.carrito();
     }
 
     @Then("valido el carrito de compra actualice correctamente")
@@ -36,3 +36,5 @@ public class DemoStepdefs {
 
     }
 }
+
+
